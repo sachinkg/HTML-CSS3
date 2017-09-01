@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Under Maintenance</title>
+</head>
+<style>
+    .roundDiv
+    {
+        background-color: #fff;
+        box-shadow: 0 0 3px #999;
+        border-radius: 500px;
+        -moz-border-radius: 500px;
+        -webkit-border-radius: 500px;
+    }
+    .roundHdr
+    {
+        box-shadow: 0 0 3px #999;
+        border-radius: 0px 0px 500px 500px;
+        -moz-border-radius: 0x 0px 500px 500px;
+        -webkit-border-radius: 0px 0px 500px 500px;
+    }
+</style>
+<body style="background-color: #0279A4;">
+    <table width="100%" style="background-color: #0279A4;" cellpadding="5" cellspacing="0">
+        <tr style="background-color: #eee;">
+            <td colspan="2" align="center" valign="middle" class="roundHdr">
+                <div>
+                    <h1 style="vertical-align: middle">
+                        Maintenance Mode</h1>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%">
+                <div style="background-color: white; padding-left: 25px; padding-right: 25px; font-family: Utsaah;
+                    font-size: xx-large; font-style: oblique; font-weight: bold;" class="roundDiv" align="center">
+                    <h1>
+                        Down For Maintenance
+                    </h1>
+                    <p>
+                        Application is currently down for maintenance. Sorry for the inconvenience.
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <style>
+        #mask
+        {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 9000;
+            background-color: #000;
+            display: none;
+        }
+        #boxes .window
+        {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 940px;
+            height: 800px;
+            display: none;
+            z-index: 9999;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        #boxes #dialog
+        {
+            width: 950px;
+            height: 600px;
+            padding: 10px;
+            background-color: #ffffff;
+            font-family: 'Segoe UI Light' , sans-serif;
+            font-size: 15pt;
+        }
+        #popupfoot
+        {
+            font-size: 16pt;
+            position: absolute;
+            bottom: 0px;
+            width: 250px;
+            left: 250px;
+        }
+    </style>
+</body>
+</html>
